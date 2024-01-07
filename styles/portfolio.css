@@ -20,7 +20,7 @@
     margin-right: 30px;
 }
 
-.description {
+.banner-description {
     width: 585px;
     color: var(--Dark-03, #757575);
     font-size: 18px;
@@ -31,7 +31,21 @@
 
 }
 
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
 
 /* nav styling */
 nav {
@@ -116,4 +130,14 @@ nav a {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* main section styling */
+
+/* about section styling */
+.about {
+    padding: 131px 156px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
 }
